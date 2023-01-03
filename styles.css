@@ -1,0 +1,37 @@
+.box{
+  display: flex;
+  margin: 0 auto;  
+  width: 900px;
+  height: 600px; 
+  background-color: rgb(16, 16, 20);  
+}
+
+.content{
+    display: flex;
+    margin: 0 auto;
+    background-color: rgb(15, 11, 54);
+    width:800px;
+    height:500px;
+}
+h1,p {
+    color: white;
+}
+span{color: rgb(118, 68, 168);}
+
+.description{
+    padding: 20px;
+    border-radius: 5px;
+}
+.description-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.part1, .part2, .part3{
+    margin: 10px;
+}
+img{
+color: blueviolet;
+width: 350px;
+height: 400;
+}
